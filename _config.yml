@@ -1,1 +1,5 @@
 title: Thoughts
+description: Test Site
+markdown: kramdown
+baseurl: ""
+url: "/"
