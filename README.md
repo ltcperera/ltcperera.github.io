@@ -1,24 +1,32 @@
-![preview Long Haul](/preview.jpg)
+This repository contains my blog that uses [Jekyll](https://jekyllrb.com/) based on the [Long Haul](https://github.com/brianmaierjr/long-haul) theme. I have made some customizations to the Long Haul theme with changes in fonts and content alignment. The SASS, Gulp, BrowserSync and Autoprefixer integration still exists. I have also added Sourcemaps support.
 
-Long Haul is a minimal jekyll theme built with SASS / GULP / BROWSERSYNC / AUTOPREFIXER and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
+## Installation
 
-If you really enjoy Long Haul and want to give me credit somewhere on the internet send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaierjr).
+1. Install ruby on your system if not already installed. For Ubuntu, you could use the following commands:
 
-####[View Demo](http://brianmaierjr.com/long-haul)
+   ```
+   sudo apt install ruby
+   ```
 
-## Features
+2. Run the gem command as follows to install all Ruby dependencies including Jekyll:
 
-- Minimal, Type Focused Design
-- Built with GULP + SASS + BROWSERSYNC + AUTOPREFIXER
-- SVG Social Icons
-- Responsive Nav Menu
-- XML Feed for RSS Readers
-- Contact Form via Formspree
-- 5 Post Loop with excerpt on Home Page
-- Previous / Next Post Navigation
-- Estimated Reading Time for posts
-- Stylish Drop Cap on posts
-- A Better Type Scale for all devices
+   ```
+   gem install
+   ```
+
+3. Run the following to install gulp and other dependencies:
+
+   ```
+
+   npm install
+   ```
+
+4. To start the local webserver and start serving content, run the following command:
+
+   ```
+   gulp
+   ```
+5. Point your browser to http://localhost:3000 to see your blog content locally.
 
 ## Setup
 
