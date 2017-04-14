@@ -26,3 +26,11 @@ social:
    linkedin: leanderperera
 
 google_analytics: "UA-97013803-1"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
