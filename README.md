@@ -28,17 +28,6 @@ This repository contains my blog that uses [Jekyll](https://jekyllrb.com/) based
    ```
 5. Point your browser to http://localhost:3000 to see your blog content locally.
 
-## Setup
-
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
-3. Clone it
-4. [Install Bundler](http://bundler.io/)
-5. Run `bundle install`
-6. Install gulp dependencies by running `npm install`
-7. Run Jekyll and watch files by running `gulp`
-8. Customize and watch the magic happen!
-
 ## Site Settings
 
 The main settings can be found inside the `_config.yml` file:
