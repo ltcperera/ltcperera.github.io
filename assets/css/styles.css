@@ -1,0 +1,55 @@
+body {
+  /*background: #1d1e1e;*/ /* For browsers that do not support gradients */
+  background: #16191b;
+  color: #fcfcfc;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-weight: 700;
+  font-size: 3em;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.text {
+  position: relative;
+  text-align: center;
+}
+
+.icon-group {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
+  color: #fcfcfc;
+  border: 2px solid #fcfcfc;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 2px;
+}
+
+a {
+  text-decoration: none;
+}
