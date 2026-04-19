@@ -41,6 +41,7 @@ body {
   justify-content: center;
   min-height: 120px;
   background: var(--c);
+  border-bottom: 8px solid color-mix(in srgb, var(--c), #000 30%);
 }
 
 /* Dark backgrounds: text is a lighter tint of the swatch color */
